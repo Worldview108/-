@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動物領養途徑</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "微軟正黑體", sans-serif;
+            line-height: 1.8;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        nav {
+            font-size: 25px;
+            font-weight: bolder;
+            background: #ffebcc;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .title {
+            font-size: 28px;
+            color: #ff9933;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            list-style: none;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 15px 30px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #ffd699;
+            color: #000;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: none; 
+        }
+        #主頁:target,
+        #貓咪:target,
+        #狗狗:target,
+        #倉鼠:target {
+            display: block;
+        }
+        h2 {
+            margin-bottom: 15px;
+            color: #ff9933;
+        }
+        h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        ol {
+            margin-left: 20px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background: #fff9e6;
+            padding: 20px;
+            border-left: 5px solid #ff9933;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            location.href = "#主頁";
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="title">每一隻生命都值得被愛</div>
+        <ul>
+        <ul>
+            <li><a href="#主頁">主頁</a></li>
+            <li><a href="#貓咪">貓咪</a></li>
+            <li><a href="#狗狗">狗狗</a></li>
+            <li><a href="#倉鼠">倉鼠</a></li>
+        </ul>
+    </nav>
+
+    <div class="Container">
+        <section id="主頁">
+            
+            <h2>給動物一個溫暖的家</h2>
+            <div class="highlight">
+                <h3>領養代替購買</h3>
+                <p>領養代替購買不僅是一種動物友善的選擇，更是一個改善社會浪浪問題的重要行動。以下是選擇領養的主要原因和好處：</p>
+                <ol>
+                    <li>解決流浪動物問題
+                        <ul>
+                            <li>降低收容所壓力：每年有數萬隻流浪動物進入收容所，但只有少數能夠找到新家。領養一隻動物，能減少收容所的負擔，幫助更多無家可歸的浪浪得到救助。</li>
+                            <li>控制浪浪數量：領養的動物大多已經結紮，能有效避免繁殖進一步加劇流浪動物的數量。</li>
+                        </ul>
+                    </li>
+                    <li>改善動物福祉
+                        <ul>
+                            <li>拯救生命：許多浪浪因環境限制可能面臨擁擠、疾病甚至自然死亡的危險。領養能讓牠們擁有一個安全的家。</li>
+                            <li>提供第二次機會：很多浪浪可能有被遺棄或受虐的經歷，領養能給予牠們重新感受到愛與安全的機會。</li>
+                        </ul>
+                    </li>
+                    <li>經濟上的好處
+                        <ul>
+                            <li>省下基本費用：收容所提供的動物通常已經完成結紮、體檢、打疫苗等基本健康檢查，比購買寵物省下一筆費用。</li>
+                            <li>減少衝動購買的風險：領養時，志工會提供詳細的養育建議，幫助毛爸媽更了解動物需求，降低飼養失敗的可能性。</li>
+                        </ul>
+                    </li>
+                    <li>避免支持不良繁殖業
+                        <ul>
+                            <li>打擊黑心繁殖場：繁殖場為牟取暴利，可能不注重動物健康與福祉，甚至導致遺傳疾病和過度繁殖。領養能讓這些不肖商家失去市場。</li>
+                            <li>促進正規繁殖業改革：支持領養有助於讓繁殖行業朝更人道、更負責任的方向發展。</li>
+                        </ul>
+                    </li>
+                    <li>米克斯的優勢
+                        <ul>
+                            <li>基因多樣性：米克斯（混種動物）通常比純種寵物更健康，因為基因多樣性降低了遺傳疾病風險。</li>
+                            <li>獨一無二的外貌：每隻米克斯都擁有獨特的特徵，是無法複製的專屬魅力。</li>
+                        </ul>
+                    </li>
+                    <li>營造更好的社會風氣
+                        <ul>
+                            <li>提倡責任飼養：領養不僅是一個善行，更能影響周圍的人，以身作則地推廣「不棄養、不虐待」的理念。</li>
+                            <li>連結愛與關懷：領養的浪浪常常更懂得珍惜和依賴，能成為忠心陪伴的家人，為生活帶來更多的溫暖與感動。</li>
+                        </ul>
+                    </li>
+                    <li>領養的象徵意義
+                        <ul>
+                            <li>領養是一種選擇，也是一份承諾。它象徵著對動物生命的尊重與珍惜，讓社會更接近一個「沒有流浪動物」的理想目標。</li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>總之，「領養代替購買」不僅是對動物、對社會的善意行動，也是為自己選擇一個更有意義的毛孩伴侶的最佳方式！</p>
+            </div>
+        </section>
+
+        <section id="貓咪">
+            <h2>貓咪領養資訊</h2>
+            <div class="highlight">
+                <h3>領養管道</h3>
+                <ul>
+                    <li>公立收容所：免費或低費用領養。</li>
+                    <li>民間組織：如貓咪中途之家。</li>
+                </ul>
+            </div>
+            <div class="highlight">
+                <h3>領養注意事項</h3>
+                <ul>
+                    <li>提供安全環境，包括防逃設施。</li>
+                    <li>定期健康檢查與疫苗注射。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="狗狗">
+            <h2>狗狗領養資訊</h2>
+            <div class="highlight">
+                <h3>領養管道</h3>
+                <ul>
+                    <li>動物之家：尋找合適的狗狗。</li>
+                    <li>志工團體：提供個性化配對服務。</li>
+                </ul>
+            </div>
+            <div class="highlight">
+                <h3>領養注意事項</h3>
+                <ul>
+                    <li>了解狗狗的需求，確保有時間陪伴。</li>
+                    <li>提前準備合適的空間與設備。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="倉鼠">
+            <h2>倉鼠領養資訊</h2>
+            <div class="highlight">
+                <h3>領養管道</h3>
+                <ul>
+                    <li>專門倉鼠認養社團。</li>
+                    <li>個人中途送養者。</li>
+                </ul>
+            </div>
+            <div class="highlight">
+                <h3>領養注意事項</h3>
+                <ul>
+                    <li>提供適合的籠舍和活動空間。</li>
+                    <li>了解倉鼠的品種與習性。</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
